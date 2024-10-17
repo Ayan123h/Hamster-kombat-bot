@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     API_HASH: str
 
 
-    REF_LINK: str = "https://t.me/hamster_kOmbat_bot/start?startapp=kentId6624523270"
+    REF_LINK: str = ""
 
     AUTO_TASK:bool = True
     AUTO_UPGRADE: bool = True
