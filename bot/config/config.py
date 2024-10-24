@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     SLEEP_TIME_BETWEEN_EACH_ROUND: list[int] = [1000, 1500]
 
 
-    USE_PROXY_FROM_FILE: bool = False
+    USE_PROXY_FROM_FILE: bool = True
 
 
 settings = Settings()
